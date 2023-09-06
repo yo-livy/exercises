@@ -1,6 +1,6 @@
 const game = (operations) => {
     let stack = [];
-    for(op of operations){
+    for(let op of operations){
         if(op === '+'){
             const score1 = stack.pop();
             const score2 = stack.pop();
